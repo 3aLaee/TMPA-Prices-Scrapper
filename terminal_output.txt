@@ -1,0 +1,28 @@
+le: 2023-08-17 13:34:39.793415
+le: 2023-08-17 13:35:15.907474
+le: 2023-08-17 13:41:18.289014
+Trajet: Tanger Ville - Tarifa
+Company: FRS
+40,25 €
+le: 2023-08-17 13:41:52.419723
+Trajet: Ceuta - Algésiras
+Company: Naviera Armas Trasmediterranea
+34,90 €
+Company: FRS
+35,00 €
+Company: Balearia
+38,00 €
+le: 2023-08-17 13:42:26.311289
+Trajet: Tanger Med - Algésiras
+le: 2023-08-17 13:43:04.079846
+Trajet: Tanger Ville - Tarifa
+Company: FRS
+le: 2023-08-17 13:43:42.028671
+Trajet: Ceuta - Algésiras
+Company: FRS
+Company: Naviera Armas Trasmediterranea
+102,00 €
+Company: Balearia
+104,99 €
+le: 2023-08-17 13:44:18.853004
+Trajet: Tanger Med - Algésiras
