@@ -75,3 +75,9 @@ Company: FRS
 223,00 €
 Company: Balearia
 227,00 €
+le: 2023-08-23 13:56:55.026829
+Trajet: Algésiras - Ceuta
+Company: Naviera Armas Trasmediterranea
+Company: Balearia
+Company: FRS
+240,00 €

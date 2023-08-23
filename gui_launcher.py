@@ -54,11 +54,11 @@ button_frame = ttk.Frame(root)
 button_frame.pack(pady=10)
 
 # Create and configure the Scrap Aller and Aller1paxv button
-scrap_aller_button = ttk.Button(button_frame, text="Scrap Aller", style="TButton", command=lambda: run_scripts(['aller/ftt.py', 'aller/fca.py', 'aller/fta.py', 'aller/aller1_reboot.py', 'aller/aller1_analysis.py', 'aller1paxv/fttv.py', 'aller1paxv/cav.py', 'aller1paxv/ftav.py', 'aller1paxv/aller1v_reboot.py', 'aller1paxv/aller1v_analysis.py', 'aller4paxv/FTTV.py', 'aller4paxv/CAV.py', 'aller4paxv/FTAV.py', 'aller4paxv/aller4Vreboot.py', 'aller4paxv/aller4V_analysis.py', 'comp.py']))
+scrap_aller_button = ttk.Button(button_frame, text="Scrap Aller", style="TButton", command=lambda: run_scripts(['aller/ftt.py', 'aller/fca.py', 'aller/fta.py', 'aller/aller1_reboot.py', 'aller/aller1_analysis.py', 'aller1paxv/fttv.py', 'aller1paxv/cav.py', 'aller1paxv/ftav.py', 'aller1paxv/aller1v_reboot.py', 'aller1paxv/aller1v_analysis.py', 'aller4paxv/FTTV.py', 'aller4paxv/CAV.py', 'aller4paxv/FTAV.py', 'aller4paxv/aller4Vreboot.py', 'aller4paxv/aller4V_analysis.py', 'comparative.py']))
 scrap_aller_button.pack(side="left", padx=10)
 
 # Create and configure the Scrap Retour button
-retour_button = ttk.Button(button_frame, text="Scrap Retour", style="TButton", command=lambda: run_scripts(['retour/ftt.py', 'retour/fca.py', 'retour/fta.py', 'retour/retour1_reboot.py', 'retour/retour1_analysis.py', 'retour1PaxV/fttv.py', 'retour1PaxV/cav.py', 'retour1PaxV/ftav.py', 'retour1PaxV/retou1v_reboot.py', 'retour1PaxV/retour1v_analysis.py', 'retour4PaxV/fttv.py', 'retour4PaxV/ftav.py', 'retour4PaxV/cav.py', 'retour4PaxV/retour4v_reboot.py', 'retour4PaxV/retour4v_analysis.py', 'comp.py']))
+retour_button = ttk.Button(button_frame, text="Scrap Retour", style="TButton", command=lambda: run_scripts(['retour/ftt.py', 'retour/fca.py', 'retour/fta.py', 'retour/retour1_reboot.py', 'retour/retour1_analysis.py', 'retour1PaxV/fttv.py', 'retour1PaxV/cav.py', 'retour1PaxV/ftav.py', 'retour1PaxV/retou1v_reboot.py', 'retour1PaxV/retour1v_analysis.py', 'retour4PaxV/fttv.py', 'retour4PaxV/ftav.py', 'retour4PaxV/cav.py', 'retour4PaxV/retour4v_reboot.py', 'retour4PaxV/retour4v_analysis.py', 'comparative.py']))
 retour_button.pack(side="left", padx=10)
 
 # Create and configure the Scrap Retour button
