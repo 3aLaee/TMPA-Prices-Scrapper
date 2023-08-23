@@ -51,7 +51,7 @@ try:
             # Enter 'Tanger' in the first field's input
             first_field_input = driver.find_element(By.XPATH, '//*[@id="route-portal"]/div[2]/div[2]/input')
             first_field_input.clear()
-            first_field_input.send_keys('Tanger')
+            first_field_input.send_keys('Tanger ville')
             time.sleep(2)
 
             # Click on the first option in the dropdown

@@ -13,10 +13,10 @@ df = pd.read_excel(file_path)
 df['Date'] = pd.to_datetime(df['Date']).dt.date  # Extract only the date part
 
 # Convert the 'Price' column to numeric format with French number format
-df['Price'] = pd.to_numeric(df['Price'].str.replace('.', '').str.replace(',', '.'), errors='coerce')
+df['Price 1PAX'] = pd.to_numeric(df['Price 1PAX'].str.replace('.', '').str.replace(',', '.'), errors='coerce')
 
 # Group by 'Trajet', 'Company', and 'Date' and calculate summary statistics
-summary = df.groupby(['Trajet', 'Company', 'Date'])['Price'].agg(['mean', 'min', 'max'])
+summary = df.groupby(['Trajet', 'Company', 'Date'])['Price 1PAX'].agg(['mean', 'min', 'max'])
 
 # Create a new Excel file and add summary statistics
 output_file = 'aller1_analysis.xlsx'
@@ -43,7 +43,7 @@ for trajet in df['Trajet'].unique():
         line_chart = LineChart()
         line_chart.title = f'Price Progression - {trajet} - {company}'
         line_chart.x_axis.title = 'Date'
-        line_chart.y_axis.title = 'Price'
+        line_chart.y_axis.title = 'Price 1PAX'
 
         dates = Reference(summary_sheet, min_col=3, min_row=2, max_row=summary_sheet.max_row)
         prices = Reference(trajet_sheet, min_col=3, max_col=3, min_row=1, max_row=trajet_df.shape[0] + 1)
@@ -69,4 +69,4 @@ bar_chart_sheet.add_chart(bar_chart, 'A2')
 
 # Save the workbook
 workbook.save(output_file)
-print(f"Excel file '{output_file}' created with enhanced analysis.")
+print(f"Excel file '{output_file}' created.")
