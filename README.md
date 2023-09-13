@@ -4,7 +4,7 @@ Welcome to the repository for my internship project at TMPA! This project is foc
 
 ## Project Features
 
-- **Web Scraping:** The core functionality of the project involves using Python's web scraping libraries to fetch price data from the target website. The scraper is designed to efficiently and reliably extract the required information.
+- **Web Scraping:** The core functionality of the project involves using selenium to fetch price data from the target website. The scraper is designed to efficiently and reliably extract the required information.
 
 - **Data Storage:** Extracted price data is organized and stored in Excel files. This makes it easy to manage and share the collected data with stakeholders.
 
