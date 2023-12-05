@@ -1,6 +1,6 @@
 # Python Web Scraper for Price Data Analysis
 
-Welcome to the repository for my internship project at TMPA! This project is focused on building a Python web scraper that extracts price data from a specified website. The extracted data is then organized and stored in Excel files. Additionally, this tool generates Excel files containing detailed analyses of the collected price data.
+Welcome to the repository for my internship project at Tanger Med Port Authority! This project is focused on building a Python web scraper that extracts price data from a specified website. The extracted data is then organized and stored in Excel files. Additionally, this tool generates Excel files containing detailed analyses of the collected price data.
 
 ## Project Features
 
