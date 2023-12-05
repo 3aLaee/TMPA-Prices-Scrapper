@@ -2,14 +2,6 @@
 
 This project is created for Tanger Med Port Authority and focuses on building a Python web scraper that extracts price data from a specified website. The extracted data is then organized and stored in Excel files. Additionally, this tool generates Excel files containing detailed analyses of the collected price data.
 
-## Project Features
-
-- **Web Scraping:** The core functionality of the project involves using selenium to fetch price data from the target website. The scraper is designed to efficiently and reliably extract the required information.
-
-- **Data Storage:** Extracted price data is organized and stored in Excel files. This makes it easy to manage and share the collected data with stakeholders.
-
-- **Data Analysis:** Beyond just collecting data, the project includes functionalities to analyze the extracted price data. Statistical and visual analyses are performed and presented in separate Excel files for easy reference.
-
 ## Key Components
 
 1. **Web Scraper:** The scraper module is responsible for navigating the website, extracting price data, and converting it into a structured format.
