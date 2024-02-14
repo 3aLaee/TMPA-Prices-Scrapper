@@ -4,10 +4,15 @@ from openpyxl.chart import LineChart, BarChart, Reference
 from openpyxl.styles import PatternFill
 from io import BytesIO
 import matplotlib.pyplot as plt
+import os
+
 
 # Read the Excel file
-file_path = 'aller4V_data.xlsx'
+directory = os.path.dirname(__file__)  # Gets the directory where the script is located
+file_path = os.path.join(directory, 'aller4V_data.xlsx')
+
 df = pd.read_excel(file_path)
+
 
 # Convert the 'Date' column to datetime format
 df['Date'] = pd.to_datetime(df['Date']).dt.date  # Extract only the date part

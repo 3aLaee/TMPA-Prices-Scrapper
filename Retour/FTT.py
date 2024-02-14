@@ -95,12 +95,12 @@ try:
             
         
             
-               # Find all company name elements with prices
-            company_elements = driver.find_elements(By.CSS_SELECTOR, '.SupplierFilter_supplierName__tqoe6')
+              # Find all company name elements with prices
+            company_elements = driver.find_elements(By.CSS_SELECTOR, '.SupplierFilter_option___Hyoa')
             
             # Collect the terminal output
             terminal_output = []
-            trajet_element = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div/main/div/div[2]/div[1]/div/section[1]/label/span')
+            trajet_element = driver.find_element(By.CSS_SELECTOR, '.SearcherBox_content__BTSJK')
             trajet = trajet_element.text
             print(f"Trajet: {trajet}")
             
@@ -117,15 +117,17 @@ try:
                     double = double_element.text
                     
                      # Find parent element and then find the trajet element
-                    
-
                     terminal_output.append([f"For: {company_name}", double, f"Trajet: {trajet}"])
+                    print(f"Company: {company_name}")
 
                 except NoSuchElementException:
                     
                     
                     print(f"Company: {company_name}")
+                    
+                    
 
+            
             
 
         finally:

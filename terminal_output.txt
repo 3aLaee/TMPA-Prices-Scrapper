@@ -23,3 +23,41 @@ Trajet: Ceuta - Algésiras
 le: 2024-02-13 21:12:21.651504
 Trajet: 38,43 €
 Company: Naviera Armas Trasmediterranea
+le: 2024-02-14 22:01:49.964481
+le: 2024-02-14 22:02:31.880926
+le: 2024-02-14 22:03:04.864308
+Trajet: 27,50 €
+Company: FRS DFDS
+le: 2024-02-14 22:03:40.857585
+Trajet: Tanger Ville - Tarifa
+le: 2024-02-14 22:04:21.686017
+Trajet: Ceuta - Algésiras
+le: 2024-02-14 22:04:58.033207
+Trajet: Tanger Med - Algésiras
+le: 2024-02-14 22:05:36.537243
+le: 2024-02-14 22:06:31.886929
+le: 2024-02-14 22:07:27.128459
+Trajet: 242,00 €
+Company: FRS DFDS
+le: 2024-02-14 22:53:43.039338
+Trajet: Tanger Ville - Tarifa
+le: 2024-02-14 22:54:16.703772
+Trajet: Ceuta - Algésiras
+le: 2024-02-14 22:54:50.524352
+Trajet: Tanger Med - Algésiras
+Company: FRS DFDS
+27,50 €
+le: 2024-02-14 22:55:25.571964
+Trajet: Tanger Ville - Tarifa
+le: 2024-02-14 22:56:07.077496
+Trajet: Ceuta - Algésiras
+le: 2024-02-14 22:56:42.551888
+Trajet: Tanger Med - Algésiras
+Company: FRS DFDS
+159,50 €
+le: 2024-02-14 22:57:20.054774
+Trajet: Tanger Ville - Tarifa
+le: 2024-02-14 22:58:20.434720
+Trajet: Ceuta - Algésiras
+le: 2024-02-14 22:59:14.659352
+Trajet: Tanger Med - Algésiras
