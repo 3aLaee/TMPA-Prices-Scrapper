@@ -1,0 +1,76 @@
+import tkinter as tk
+from tkinter import ttk
+import os
+import threading
+import time  # Used for simulating work in this example
+
+# Assuming you have the selenium package installed and configured
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+def run_script_with_progress(script_files):
+    # This function is simplified for demonstration. You'll need to adjust it
+    # to integrate actual Selenium operations and progress tracking.
+    def execute_script():
+        # Example headless setup for Chrome
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        driver = webdriver.Chrome(options=chrome_options)  # Ensure you have chromedriver installed and in PATH
+        
+        for i, script in enumerate(script_files):
+            print(f"Running script: {script}")  # Placeholder for actual Selenium script execution
+            # Simulate script execution duration
+            time.sleep(1)
+            
+            # Update progress bar
+            progress = ((i + 1) / len(script_files)) * 100
+            progress_var.set(progress)
+            progress_bar['value'] = progress
+            root.update_idletasks()
+        
+        driver.quit()  # Make sure to quit the driver after tasks are done
+
+    threading.Thread(target=execute_script).start()
+
+def open_folder():
+    script_directory = os.path.dirname(os.path.realpath(__file__))
+    os.startfile(script_directory)  # Using os.startfile for simplicity
+
+# Create the main window
+root = tk.Tk()
+root.title("TMPA Prices Scraper")
+
+# Set up styles
+style = ttk.Style()
+style.configure("TButton", font=("Helvetica", 12), padding=10)
+style.configure("TLabel", font=("Helvetica", 14), padding=10)
+style.configure("Title.TLabel", font=("Helvetica", 20, "bold"), foreground="#3498db")
+
+# Title and picture setup
+title_label = ttk.Label(root, text="TMPA Prices Scraper", style="Title.TLabel")
+title_label.pack(pady=20)
+
+image_path = "head.jpg"  # Ensure this path is correct
+image = tk.PhotoImage(file=image_path)
+image_label = ttk.Label(root, image=image)
+image_label.pack(pady=20)
+
+# Button frame setup
+button_frame = ttk.Frame(root)
+button_frame.pack(pady=10)
+
+# Progress bar setup
+progress_var = tk.DoubleVar()
+progress_bar = ttk.Progressbar(root, variable=progress_var, maximum=100)
+progress_bar.pack(pady=20)
+
+# Buttons setup
+scrap_aller_button = ttk.Button(button_frame, text="Scrap Aller", style="TButton",
+                                command=lambda: run_script_with_progress(['script1.py', 'script2.py']))  # Example scripts
+scrap_aller_button.pack(side="left", padx=10)
+
+folder_button = ttk.Button(root, text="Open Folder", command=open_folder)
+folder_button.pack(pady=10)
+
+# Start the GUI event loop
+root.mainloop()

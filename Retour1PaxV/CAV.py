@@ -93,12 +93,12 @@ try:
 
            
 
-            # Find all company name elements with prices
-            company_elements = driver.find_elements(By.CSS_SELECTOR, '.SupplierFilter_option__GNGv3')
+               # Find all company name elements with prices
+            company_elements = driver.find_elements(By.CSS_SELECTOR, '.SupplierFilter_supplierName__tqoe6')
             
             # Collect the terminal output
             terminal_output = []
-            trajet_element = driver.find_element(By.XPATH, '//*[@id="route-portal"]/div/div/div/div/div')
+            trajet_element = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div/main/div/div[2]/div[1]/div/section[1]/label/span')
             trajet = trajet_element.text
             print(f"Trajet: {trajet}")
             
@@ -109,7 +109,7 @@ try:
                     
 
                     # Locate the adjacent double element
-                    double_element = company_element.find_element(By.XPATH, './following-sibling::div[contains(@class, "double-class")]')
+                    double_element = company_element.find_element(By.CSS_SELECTOR, '.SupplierFilter_price__xHlJY')
 
                     # Extract the double value
                     double = double_element.text
