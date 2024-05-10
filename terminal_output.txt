@@ -61,3 +61,123 @@ le: 2024-02-14 22:58:20.434720
 Trajet: Ceuta - Algésiras
 le: 2024-02-14 22:59:14.659352
 Trajet: Tanger Med - Algésiras
+le: 2024-02-14 23:20:50.960020
+Trajet: Tarifa - Tanger Ville
+Company: FRS DFDS
+le: 2024-03-05 15:11:37.311934
+Trajet: Tanger Ville - Tarifa
+Company: FRS DFDS
+40,25 €
+le: 2024-03-05 15:12:26.049651
+Trajet: Ceuta - Algésiras
+Company: Balearia
+35,00 €
+Company: FRS DFDS
+36,00 €
+Company: Naviera Armas Trasmediterranea
+36,93 €
+le: 2024-03-05 15:13:02.013957
+Trajet: Tanger Med - Algésiras
+Company: AML - Africa Moroco Link
+23,00 €
+Company: Balearia
+29,00 €
+Company: FRS DFDS
+29,00 €
+Company: Naviera Armas Trasmediterranea
+32,28 €
+le: 2024-03-05 15:13:42.997202
+Trajet: Tanger Ville - Tarifa
+Company: FRS DFDS
+211,95 €
+le: 2024-03-05 15:14:22.705512
+le: 2024-03-05 15:14:39.867817
+le: 2024-03-07 10:51:45.330733
+Trajet: Tanger Ville - Tarifa
+Company: FRS DFDS
+40,25 €
+le: 2024-03-07 10:52:32.736157
+Trajet: Ceuta - Algésiras
+Company: Balearia
+35,00 €
+Company: FRS DFDS
+36,00 €
+Company: Naviera Armas Trasmediterranea
+36,93 €
+le: 2024-03-07 10:53:13.527977
+le: 2024-03-07 11:19:21.558608
+Trajet: Tanger Ville
+(Maroc)
+le: 2024-03-07 11:20:10.005103
+Trajet: Ceuta - Algésiras
+Company: Balearia
+35,00 €
+Company: FRS DFDS
+36,00 €
+Company: Naviera Armas Trasmediterranea
+36,93 €
+le: 2024-03-07 11:20:52.266872
+Trajet: Tanger Med - Algésiras
+Company: AML - Africa Moroco Link
+23,00 €
+Company: FRS DFDS
+29,00 €
+Company: Naviera Armas Trasmediterranea
+32,28 €
+Company: Balearia
+38,00 €
+le: 2024-03-07 11:21:33.905635
+Trajet: Tanger Ville - Tarifa
+Company: FRS DFDS
+211,95 €
+le: 2024-03-07 11:22:18.240725
+Trajet: Ceuta - Algésiras
+Company: FRS DFDS
+74,00 €
+Company: Balearia
+74,80 €
+Company: Naviera Armas Trasmediterranea
+76,82 €
+le: 2024-03-07 11:23:06.621255
+Trajet: Tanger Med - Algésiras
+Company: AML - Africa Moroco Link
+125,00 €
+Company: FRS DFDS
+161,00 €
+Company: Naviera Armas Trasmediterranea
+164,39 €
+Company: Balearia
+199,00 €
+le: 2024-03-07 11:23:53.310824
+Trajet: Tanger Ville - Tarifa
+Company: FRS DFDS
+332,70 €
+le: 2024-03-07 11:25:01.110138
+Trajet: Ceuta - Algésiras
+Company: Balearia
+Company: FRS DFDS
+182,00 €
+Company: Naviera Armas Trasmediterranea
+187,61 €
+le: 2024-03-07 11:26:03.168939
+Trajet: Tanger Med - Algésiras
+Company: Balearia
+Company: AML - Africa Moroco Link
+188,00 €
+Company: FRS DFDS
+248,00 €
+Company: Naviera Armas Trasmediterranea
+261,23 €
+le: 2024-05-10 11:58:04.699792
+Trajet: Tanger Ville - Tarifa
+Company: FRS DFDS
+40,25 €
+le: 2024-05-10 11:58:38.632457
+Trajet: Ceuta - Algésiras
+Company: Balearia
+35,00 €
+Company: FRS DFDS
+36,00 €
+Company: Naviera Armas Trasmediterranea
+36,93 €
+le: 2024-05-10 11:59:12.753776
